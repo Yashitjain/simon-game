@@ -2,17 +2,30 @@ body{
     background-color:darkblue;
 }
 
+.start{
+    background-color: black;
+    color: white;
+    /* margin-left: 15%; */
+    margin-top: 9px;
+    box-shadow: 2px 2px white;
+}
+
+.header{
+    margin-left: 35%;
+    text-align: center;
+    width: fit-content;
+}
+
 .getstart{
     font-weight: 700;
     font-size: 3rem;
     width: max-content;
     align-content: center;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     margin-top: 2rem;
     color: antiquewhite;
 
 }
-
 .jersey-15-charted-regular {
     font-family: "Jersey 15 Charted", sans-serif;
     font-weight: 400;
@@ -75,13 +88,6 @@ body{
     width: fit-content;
 }
 
-.start{
-    background-color: black;
-    color: white;
-    margin-top: 9px;
-    box-shadow: 2px 2px white;
-}
-
 @media (max-width:400px){
     .getstart{
         width: 50%;
@@ -94,5 +100,8 @@ body{
     }
     .rows{
         margin-left: 30%;
+    }
+    .header{
+        margin-left: 15%;
     }
 }
