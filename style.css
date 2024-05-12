@@ -75,7 +75,12 @@ body{
     width: fit-content;
 }
 
-
+.start{
+    background-color: black;
+    color: white;
+    margin-top: 9px;
+    box-shadow: 2px 2px white;
+}
 
 @media (max-width:400px){
     .getstart{
