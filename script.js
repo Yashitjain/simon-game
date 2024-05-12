@@ -3,7 +3,7 @@ var compPath = '';
 var level = 0;
 var start = false;
 
-$("#title").click(function(){
+$(".start").click(function(){
     start=true;
     $("#title").text("Level 0");
     activeBlock();
