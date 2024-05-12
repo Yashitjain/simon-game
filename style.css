@@ -1,0 +1,93 @@
+body{
+    background-color:darkblue;
+}
+
+.getstart{
+    font-weight: 700;
+    font-size: 3rem;
+    width: max-content;
+    align-content: center;
+    margin-left: 35%;
+    margin-top: 2rem;
+    color: antiquewhite;
+
+}
+
+.jersey-15-charted-regular {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.block{
+    height: 10rem;
+    width: 10rem;
+    margin: 1em;
+    border: 7px solid black;
+    border-radius: 20%;
+    box-shadow:7px 7px black ;
+    /* animation-name: selected;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1; */
+}
+
+.block_animation{
+    /* height: 10rem;
+    width: 10rem; */
+    margin: 1em;
+    /* border: 7px solid white; */
+    border-radius: 20%;
+    /* box-shadow:7px 7px white ; */
+    animation-name: selected;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes selected{
+    from{
+        scale: 0.4;
+    }to{
+        scale: 1;
+        background-color: white;
+    }
+}
+
+
+.block1{
+    background-color: red;
+}
+.block2{
+    background-color:blue;
+}
+.block3{
+    background-color: yellow;
+}
+.block4{
+    background-color: green;
+}
+.row{
+    display: inline-block;
+}
+.rows{
+    margin-left: 35%;
+    margin-top: 8%;
+    width: fit-content;
+}
+
+
+
+@media (max-width:400px){
+    .getstart{
+        width: 50%;
+        font-size: 2em;
+        margin-left: 25%;
+    }
+    .block{
+        height: 7rem;
+        width: 7rem;
+    }
+    .rows{
+        margin-left: 30%;
+    }
+}
